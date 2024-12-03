@@ -1,0 +1,37 @@
+label {
+    font-weight: bold;
+}
+
+body {
+    background-image: url('back.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.form-control.keterangan {
+    width: 200px; /* Ubah lebar sesuai kebutuhan */
+    height: 60px; /* Ubah tinggi sesuai kebutuhan */
+}
+
+.required {
+    color: #ff0000;
+}
+
+textarea::placeholder {
+    color: #999; /* Warna placeholder */
+    opacity: 2; /* Pastikan opacity tidak terlalu rendah */
+}
+
+.my-confirm-button {
+    background-color: black; /* Ganti dengan warna yang diinginkan */
+    color: white; /* Ganti warna teks jika perlu */
+}
+
